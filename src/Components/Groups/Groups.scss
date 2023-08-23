@@ -1,0 +1,14 @@
+.group-container{
+    display: flex;
+    flex-direction: column;
+    .group-items{
+        background-color: bisque;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .group-members{
+        background-color: rgb(255, 196, 231);
+        padding-left: 20px;
+    }
+}
