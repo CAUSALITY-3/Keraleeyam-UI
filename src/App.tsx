@@ -4,7 +4,7 @@ export default function App() {
   const [userdata, setUserdata] = useState([]);
   const getUserdata = async () => {
     try {
-      const req = await fetch("https://honest-paws-join.loca.lt/program/fullData");
+      const req = await fetch("https://eight-taxis-see.loca.lt/program/fullData");
       const resData = await req.json();
       if (resData.length > 0) {
         setUserdata(resData);
